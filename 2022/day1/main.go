@@ -10,7 +10,7 @@ import (
 
 var list []int
 
-// https://adventofcode.com/2022/day/1
+// #176 https://adventofcode.com/2022/day/1
 func main() {
 	file, err := os.Open("data.txt")
 	if err != nil {
